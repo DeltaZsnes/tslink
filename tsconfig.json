@@ -1,0 +1,27 @@
+// https://www.typescriptlang.org/docs/handbook/compiler-options.html
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "lib": ["DOM", "ES6"],
+        "module": "CommonJS",
+        "moduleResolution": "Node",
+        "rootDir": "./src",
+        "outDir": "./dist",
+        "tsBuildInfoFile": "./dist/.tsbuildinfo",
+        "removeComments": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "strictNullChecks": true,
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "noImplicitReturns": true,
+        "sourceMap": true,
+        "incremental": true,
+    },
+    "include": [
+        "src"
+    ],
+    "exclude": [
+        "node_modules/**/*",
+    ]
+}
